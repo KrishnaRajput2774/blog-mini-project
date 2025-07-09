@@ -1,13 +1,15 @@
 .top{
     width: 100%;
     background-color: white;
-    height: 3rem;
+    height: 2.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
     position: sticky;
     top: 0;
     
+    z-index: 999;
 }
 
 .topLeft, .topRight {
@@ -16,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .topCenter {
@@ -35,14 +38,18 @@
 
 .topIcon {
     margin-left: 1rem;
+    cursor: pointer;
+    
 }
 
 .topProfilePic {
     width: 2rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .topSearchIcon {
     font-size: large;
     margin-left: 1rem;
+    cursor: pointer;
 }

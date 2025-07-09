@@ -1,0 +1,24 @@
+.header{
+    margin-top: 3rem;
+}
+
+.headerTilte {
+    font-size: 5rem;
+    position: absolute;
+    right: 50%;
+    top: 8%;
+}
+
+.headerTitleLg {
+    font-size: 4rem;
+    font-family: 'Lora', sans-serif;
+    font-weight: 300;
+    color: gray;
+}
+
+.headerImg {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+
+}
