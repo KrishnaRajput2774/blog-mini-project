@@ -1,0 +1,48 @@
+.top{
+    width: 100%;
+    background-color: white;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+}
+
+.topLeft, .topRight {
+    flex: 3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topCenter {
+    flex: 6;
+}
+
+.topCenter ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.topListItem{
+    list-style: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.topIcon {
+    margin-left: 1rem;
+}
+
+.topProfilePic {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.topSearchIcon {
+    font-size: large;
+    margin-left: 1rem;
+}
